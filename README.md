@@ -1,63 +1,41 @@
 # node-sass-pug
 
-A repo to get started with Node, Sass, and Pug. It does the following for you:
+A simple starter project to help you get started with Node, Sass, and Pug. It does the following for you:
 
 - Uses the `node-sass` and `pug-cli` modules to compile your Sass into CSS and your Pug into HTML, respectively.
 - Uses the `live-server` module to run a simple local server that can live-reload on file changes.
 - Uses the `postcss-cli` to post-process generated CSS to produce a production build (using the `autoprefixer` plugin to add prefixes and the `cssnano` plugin to optimize and minify).
 
-All input files (`*.scss` and `*.pug`) should live in the `src` directory, and all generated files (`*.css` and `*.html`) will end up in the `dist` directory. **When running the commands below, everything in the `dist` directory will be wiped out and regenerated, so be careful.**
+All input files (`*.scss` and `*.pug`) should live in the `src` directory, and all generated files (`*.css` and `*.html`) will end up in the `dist` directory. **When running the commands below, everything in the `dist` directory will be wiped out and regenerated, so be careful not to add files or make changes in the `dist` directory.**
 
-## Developing
+## Getting Started
 
-1. Make sure you've installed Node and either npm or Yarn.
+Firs, make sure you've installed Node and npm. You can also use Yarn instead of npm, but the instructions below were written for npm (the Yarn equivalents are similar).
 
-2. Clone this repo:
+Then, clone this repo and install the Node dependencies:
 
 ```bash
 git clone https://github.com/reid47/node-sass-pug.git some-directory
 
 cd some-directory
-```
 
-3. Install Node dependencies:
-
-If using npm:
-```bash
 npm i
 ```
 
-If using Yarn:
-```bash
-yarn
-```
+## Developing
 
-4. While developing, run the following to start up a local server at `localhost:8080` that will live-compile the `*.pug` and `*.scss` files in your `src` directory and live-reload your pages upon changes:
-
-If using npm:
+While developing, run the following to start up a local server at `localhost:8080` that will live-compile the `*.pug` and `*.scss` files in your `src` directory and live-reload your pages upon changes:
 
 ```bash
 npm run watch
 ```
 
-If using Yarn:
+*NOTE: When you have added a new file, you will probably need to quit this process and restart it to pick up the new file.*
 
-```bash
-yarn run watch
-```
+## Building for Production
 
-*NOTE: When you have added a new file, you will probably need to kill this process and restart it to pick up the new file.*
-
-5. When you're ready, run the following to produce a final set of compiled HTML and CSS files in the `dist` directory, with the CSS prefixed, optimized and minified:
-
-If using npm:
+When you're ready, run the following to produce a final set of compiled HTML and CSS files in the `dist` directory, with the CSS prefixed, optimized and minified:
 
 ```bash
 npm run build
-```
-
-If using Yarn:
-
-```bash
-yarn run build
 ```
