@@ -32,7 +32,7 @@ If using Yarn:
 yarn
 ```
 
-4. While developing, run the following to start up a local server that will live-compile the `*.pug` and `*.scss` files in your `src` directory and live-reload your pages upon changes:
+4. While developing, run the following to start up a local server at `localhost:8080` that will live-compile the `*.pug` and `*.scss` files in your `src` directory and live-reload your pages upon changes:
 
 If using npm:
 
