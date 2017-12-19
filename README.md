@@ -1,6 +1,6 @@
 # node-sass-pug
 
-A simple starter project to help you get started with Node, Sass, and Pug. It does the following for you:
+A simple starter project to help you get started with [Node](https://nodejs.org/), [Sass](http://sass-lang.com/), and [Pug](https://pugjs.org/). It does the following for you:
 
 - Uses the `node-sass` and `pug-cli` modules to compile your Sass into CSS and your Pug into HTML, respectively.
 - Uses the `live-server` module to run a simple local server that can live-reload on file changes.
