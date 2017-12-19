@@ -6,13 +6,13 @@ A simple starter project to help you get started with Node, Sass, and Pug. It do
 - Uses the `live-server` module to run a simple local server that can live-reload on file changes.
 - Uses the `postcss-cli` to post-process generated CSS to produce a production build (using the `autoprefixer` plugin to add prefixes and the `cssnano` plugin to optimize and minify).
 
-All input files (`*.scss` and `*.pug`) should live in the `src` directory, and all generated files (`*.css` and `*.html`) will end up in the `dist` directory. **When running the commands below, everything in the `dist` directory will be wiped out and regenerated, so be careful not to add files or make changes in the `dist` directory.**
+All input files (`*.scss` and `*.pug`) live in the `src` directory, and all generated files (`*.css` and `*.html`) will end up in the `dist` directory. When running the commands below, everything in the `dist` directory will be wiped out and regenerated, so **be careful not to add files or make changes in the `dist` directory. Only work in the `src` directory.**
 
 ## Getting Started
 
-Firs, make sure you've installed Node and npm. You can also use Yarn instead of npm, but the instructions below were written for npm (the Yarn equivalents are similar).
+First, make sure you've installed [npm](https://www.npmjs.com/get-npm). You can also use Yarn instead of npm, but the instructions below were written for npm (the Yarn equivalents are similar).
 
-Then, clone this repo and install the Node dependencies:
+Next, clone this repo and install the Node dependencies:
 
 ```bash
 git clone https://github.com/reid47/node-sass-pug.git some-directory
