@@ -61,6 +61,3 @@ If using Yarn:
 ```bash
 yarn run build
 ```
-
-## Publishing/distributing
-
