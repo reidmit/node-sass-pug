@@ -8,7 +8,7 @@ A repo to get started with Node, Sass, and Pug. It does the following for you:
 
 All input files (`*.scss` and `*.pug`) should live in the `src` directory, and all generated files (`*.css` and `*.html`) will end up in the `dist` directory.
 
-To get started:
+## Developing
 
 1. Make sure you've installed Node and either npm or Yarn.
 
@@ -59,3 +59,6 @@ If using Yarn:
 ```bash
 yarn run build
 ```
+
+## Publishing/distributing
+
