@@ -6,7 +6,7 @@ A repo to get started with Node, Sass, and Pug. It does the following for you:
 - Uses the `live-server` module to run a simple local server that can live-reload on file changes.
 - Uses the `postcss-cli` to post-process generated CSS to produce a production build (using the `autoprefixer` plugin to add prefixes and the `cssnano` plugin to optimize and minify).
 
-All input files (`*.scss` and `*.pug`) should live in the `src` directory, and all generated files (`*.css` and `*.html`) will end up in the `dist` directory.
+All input files (`*.scss` and `*.pug`) should live in the `src` directory, and all generated files (`*.css` and `*.html`) will end up in the `dist` directory. **When running the commands below, everything in the `dist` directory will be wiped out and regenerated, so be careful.**
 
 ## Developing
 
@@ -45,6 +45,8 @@ If using Yarn:
 ```bash
 yarn run watch
 ```
+
+*NOTE: When you have added a new file, you will probably need to kill this process and restart it to pick up the new file.*
 
 5. When you're ready, run the following to produce a final set of compiled HTML and CSS files in the `dist` directory, with the CSS prefixed, optimized and minified:
 
